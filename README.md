@@ -5,7 +5,7 @@
 * **Debloater** \- Remove pre-installed apps and services on demand
 * **Camera2 & EIS Enabler** \- Enable camera2 and EIS (TWRP required)
 * **Read device properties** \- Retrieve tons of statistics and information about your phone
-* **Flasher** \- Flash the boot/cust/modem/persist/recovery/system partition with an image (unlocked bootloader required)
+* **Flasher** \- Flash any partition with an image or boot to any image (unlocked bootloader required)
 * **Wiper** \- Wipe the cache or perform a factory reset
 * **OEM Unlocker & Locker** \- Lock or unlock the bootloader \(Unlocking is supported by the Android One phones only\)
 * **Rebooter** \- Advanced rebooting options using ADB/Fastboot
