@@ -54,8 +54,8 @@
                            <children>
                               <GridPane layoutX="10.0" layoutY="10.0" prefHeight="90.0" prefWidth="357.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <columnConstraints>
-                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="168.0" minWidth="10.0" prefWidth="103.0" />
-                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="263.99999237060547" minWidth="10.0" prefWidth="219.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="168.0" minWidth="10.0" prefWidth="130.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="263.99999237060547" minWidth="10.0" prefWidth="192.0" />
                                  </columnConstraints>
                                  <rowConstraints>
                                     <RowConstraints maxHeight="35.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
