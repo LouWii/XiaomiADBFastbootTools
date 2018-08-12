@@ -22,7 +22,7 @@ Download the binary and instructions from [here](https://github.com/Saki-EU/Xiao
 
 **A:** Yes, the tool was developed in Java and needs the Java Runtime Environment to run. You can download Java from [here](https://java.com/en/download/).
 
-**Q:** The tool doesn't detect my phone even though it's connected and USB debugging is enabled. What gives?
+**Q:** The tool on Windows doesn't detect my phone even though it's connected and USB debugging is enabled. What's the problem?
 
 **A:** Windows most likely does not recognise your phone in ADB. Install the universal ADB drivers from [here](http://dl.adbdriver.com/upload/adbdriver.zip).
 
