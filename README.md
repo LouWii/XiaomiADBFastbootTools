@@ -18,28 +18,28 @@ Download the binary and instructions from [here](https://github.com/Saki-EU/Xiao
 
 **Frequently Asked Questions:**
 
-**Q:** The tool doesn't launch on my computer, is there anything I should have installed?
+* **Q:** The tool doesn't launch on my computer, is there anything I should have installed?
 
-**A:** Yes, the tool was developed in Java and needs the Java Runtime Environment to run. You can download Java from [here](https://java.com/en/download/).
+* **A:** Yes, the tool was developed in Java and needs the Java Runtime Environment to run. You can download Java from [here](https://java.com/en/download/).
 
-On Linux, make sure adb and fastboot are installed system wide via APT.
+  On Linux, make sure adb and fastboot are installed system wide via APT.
 
 **Q:** The tool on Windows doesn't detect my phone even though it's connected and USB debugging is enabled. What's the problem?
 
-**A:** Windows most likely does not recognise your phone in ADB. Install the universal ADB drivers from [here](http://dl.adbdriver.com/upload/adbdriver.zip).
+* **A:** Windows most likely does not recognise your phone in ADB. Install the universal ADB drivers from [here](http://dl.adbdriver.com/upload/adbdriver.zip).
 
 **Q:** Do I need an unlocked bootloader or root access to use the tool?
 
-**A:** The Image Flasher and the Wiper require an unlocked bootloader but everything else works without rooting or unlocking.
+* **A:** The Image Flasher and the Wiper require an unlocked bootloader but everything else works without rooting or unlocking.
 
 **Q:** Do uninstalled system apps affect OTA updates?
 
-**A:** No, you are free to install updates without the fear of bricking your device or losing data.
+* **A:** No, you are free to install updates without the fear of bricking your device or losing data.
 
 **Q:** The tool is called Xiaomi ADB/Fastboot Tools. Does that mean it only works with Xiaomi devices?
 
-**A:** Well, ADB and Fastboot are universal interfaces for Android devices but some of the algorithms and methods used in the app are Xiaomi specific, so yes.
+* **A:** Well, ADB and Fastboot are universal interfaces for Android devices but some of the algorithms and methods used in the app are Xiaomi specific, so yes.
 
 **Q:** Does this replace MiFlash or MiUnlock?
 
-**A:** No. Implementing their functionality in such a simple tool would only make it unnecessarily complex.
+* **A:** No. Implementing their functionality in such a simple tool would only make it unnecessarily complex.
