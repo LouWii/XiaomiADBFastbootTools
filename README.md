@@ -18,7 +18,7 @@ Download the binary and instructions from [here](https://github.com/Saki-EU/Xiao
 
 **Frequently Asked Questions:**
 
-* **Q:** The tool doesn't launch on my computer, is there anything I should have installed?
+**Q:** The tool doesn't launch on my computer, is there anything I should have installed?
 
 * **A:** Yes, the tool was developed in Java and needs the Java Runtime Environment to run. You can download Java from [here](https://java.com/en/download/).
 
