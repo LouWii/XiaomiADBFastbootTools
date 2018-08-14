@@ -14,7 +14,7 @@
 
 **Warning: Use the tool at your own risk. Removing factory apps which aren't in the tool may break your phone.**
 
-Download the binary and instructions from [here](https://github.com/Saki-EU/XiaomiADBFastbootTools/releases/latest).
+Download the binary and the instructions from [here](https://github.com/Saki-EU/XiaomiADBFastbootTools/releases/latest).
 
 **Frequently Asked Questions:**
 
