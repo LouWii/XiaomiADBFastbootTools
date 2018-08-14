@@ -28,7 +28,7 @@ Download the binary and the instructions from [here](https://github.com/Saki-EU/
 
 **Q:** Do I need an unlocked bootloader or root access to use the tool?
 
-* **A:** The Image Flasher and the Wiper require an unlocked bootloader but everything else works without rooting or unlocking.
+* **A:** The Image Flasher, the Wiper and the Camera2 enabler require an unlocked bootloader but everything else works without rooting or unlocking.
 
 **Q:** Do uninstalled system apps affect OTA updates?
 
