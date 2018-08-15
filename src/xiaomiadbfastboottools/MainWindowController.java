@@ -174,6 +174,10 @@ public class MainWindowController implements Initializable {
     }
     
     public void createFile(String file){
+    	createFile(file, false);
+    }
+    
+    public void createFile(String file, Boolean setExecPermission){
         File temp = new File(System.getProperty("user.dir") + "/temp");
         temp.mkdir();
         byte[] bytes = null;
@@ -192,10 +196,15 @@ public class MainWindowController implements Initializable {
                 fos.write(bytes);
                 fos.flush();
                 fos.close();
+
+                if (setExecPermission) {
+                	newfile = new File(System.getProperty("user.dir") + "/temp/" + file);
+                	newfile.setExecutable(true);
+                }
             } catch (IOException ex) {
                 System.out.println("ERROR: Couldn't create file.");
             }
-	  }
+        }
     }
     
     public void setupFiles(){
@@ -208,8 +217,8 @@ public class MainWindowController implements Initializable {
             createFile("windows/AdbWinUsbApi.dll");
         }
         if (os.contains("mac")){
-            createFile("macos/adb");
-            createFile("macos/fastboot");
+            createFile("macos/adb", true);
+            createFile("macos/fastboot", true);
         }
     }
 

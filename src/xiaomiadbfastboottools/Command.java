@@ -29,6 +29,8 @@ public class Command {
         tic = null;
         if (System.getProperty("os.name").toLowerCase().contains("linux"))
         	prefix = "";
+        else if (System.getProperty("os.name").toLowerCase().contains("mac os"))
+        	prefix = "./";
         else prefix = "temp/";
     }
     
@@ -38,6 +40,8 @@ public class Command {
         tic = control;
         if (System.getProperty("os.name").toLowerCase().contains("linux"))
         	prefix = "";
+        else if (System.getProperty("os.name").toLowerCase().contains("mac os"))
+        	prefix = "./";
         else prefix = "temp/";
     }
     
@@ -51,6 +55,7 @@ public class Command {
             proc = pb.start();
         } catch (IOException ex) {
             System.out.println("ERROR: Couldn't start process");
+            System.out.println(ex.getMessage());
         }
         scan = new Scanner(proc.getInputStream());
         String line;
@@ -74,6 +79,7 @@ public class Command {
             proc = pb.start();
         } catch (IOException ex) {
             System.out.println("ERROR: Couldn't start process");
+            System.out.println(ex.getMessage());
         }
         if (err)
             scan = new Scanner(proc.getErrorStream());
